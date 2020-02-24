@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_40"
+    android:layout_marginLeft="@dimen/dp_20"
+    android:layout_marginRight="@dimen/dp_20"
+    android:background="@color/white"
+    >
+
+
+    <TextView
+        android:layout_toLeftOf="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refuel"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/sp_14"
+        android:fontFamily="@font/poppins_medium"/>
+
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

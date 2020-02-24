@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="carmodel">
+        <item>Honda</item>
+        <item>Maruti</item>
+    </string-array>
+
+    <string-array name="carsubmodel">
+        <item>Swift</item>
+        <item>Aulto</item>
+    </string-array>
+
+    <string-array name="fueltype">
+        <item>petrol</item>
+        <item>Desel</item>
+    </string-array>
+
+</resources>
